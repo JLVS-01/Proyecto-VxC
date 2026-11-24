@@ -1,5 +1,4 @@
-# Dataset YOLO-Seg - Combustible Forestal (3 clases unificadas, split espacial por waypoint)
-path: /home/rocca/files/sch/vision/proyecto/data/yolo_dataset
+path: C:\Users\JLftr\OneDrive\Documentos\Curso VxC\Vision\data\yolo_dataset
 train: images/train
 val: images/val
 test: images/test
