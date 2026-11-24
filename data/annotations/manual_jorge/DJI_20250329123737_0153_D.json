@@ -1,0 +1,82 @@
+{
+  "version": "7.11.0",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "vegetacion_seca",
+      "points": [
+        [
+          2244.9494285902156,
+          416.1717690712794
+        ],
+        [
+          2725.330556318207,
+          7.134373184079076
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "vegetacion_seca",
+      "points": [
+        [
+          3258.0304207294444,
+          1736.0308081259084
+        ],
+        [
+          3636.1521994856357,
+          1336.5059098174802
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "vegetacion_seca",
+      "points": [
+        [
+          604.0435962520284,
+          2946.4961250246583
+        ],
+        [
+          1212.8434412934428,
+          2330.5619067991647
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "vegetacion_seca",
+      "points": [
+        [
+          3129.611703416021,
+          2953.630498208737
+        ],
+        [
+          3560.0522188554587,
+          3403.096008805719
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "..\\raw\\DJI_20250329123737_0153_D.JPG",
+  "imageData": null,
+  "imageHeight": 3956,
+  "imageWidth": 5280
+}

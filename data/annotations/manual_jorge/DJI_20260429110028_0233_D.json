@@ -1,0 +1,154 @@
+{
+  "version": "7.11.0",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "vegetacion_seca",
+      "points": [
+        [
+          3080.4492122365637,
+          2311.9231377476535
+        ],
+        [
+          3581.8301336758136,
+          1838.3967119439171
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "vegetacion_seca",
+      "points": [
+        [
+          385.5267595005938,
+          525.7536051203248
+        ],
+        [
+          953.0621080741896,
+          17.409059772196187
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "vegetacion_seca",
+      "points": [
+        [
+          1019.2165352085351,
+          100.97254667873788
+        ],
+        [
+          1820.0332847295597,
+          870.4529886098093
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "vegetacion_seca",
+      "points": [
+        [
+          1.7867200495736197,
+          2494.261189204773
+        ],
+        [
+          678.9536188379755,
+          3141.0538471504233
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "vegetacion_seca",
+      "points": [
+        [
+          37.521121041046015,
+          2462.100228312448
+        ],
+        [
+          1091.6859502894815,
+          1910.0037329941995
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "vegetacion_seca",
+      "points": [
+        [
+          25.014080694030675,
+          1861.7622916557116
+        ],
+        [
+          293.0220881300736,
+          1515.1386020384296
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "vegetacion_seca",
+      "points": [
+        [
+          139.36416386674233,
+          1461.537000551221
+        ],
+        [
+          528.8691346737915,
+          1011.2835480586688
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "vegetacion_seca",
+      "points": [
+        [
+          437.7464121455368,
+          3650.2690612789047
+        ],
+        [
+          762.9294611679355,
+          3950.438029607273
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "..\\raw\\DJI_20260429110028_0233_D.JPG",
+  "imageData": null,
+  "imageHeight": 3956,
+  "imageWidth": 5280
+}

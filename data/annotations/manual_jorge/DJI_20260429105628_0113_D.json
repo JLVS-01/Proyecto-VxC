@@ -1,0 +1,28 @@
+{
+  "version": "7.11.0",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "vegetacion_seca",
+      "points": [
+        [
+          2367.8517811225247,
+          217.85015760702083
+        ],
+        [
+          2591.395474223669,
+          15.709584058113688
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "..\\raw\\DJI_20260429105628_0113_D.JPG",
+  "imageData": null,
+  "imageHeight": 3956,
+  "imageWidth": 5280
+}

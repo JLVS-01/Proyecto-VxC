@@ -1,0 +1,180 @@
+{
+  "model": "RandomForestClassifier",
+  "params": {
+    "n_estimators": 300,
+    "max_depth": 20,
+    "class_weight": "balanced"
+  },
+  "split_counts": {
+    "train": 1250,
+    "val": 329,
+    "test": 301
+  },
+  "variants": {
+    "solo_hog": {
+      "variant": "Solo HOG",
+      "train_time_s": 1.501,
+      "infer_ms_per_sample": 0.1508,
+      "val_accuracy": 0.5775,
+      "val_f1_macro": 0.3965,
+      "test_accuracy": 0.6279,
+      "test_f1_macro": 0.4909,
+      "test_f1_weighted": 0.6023,
+      "test_per_class": {
+        "vegetacion_seca": {
+          "precision": 0.6804,
+          "recall": 0.8054,
+          "f1": 0.7376,
+          "support": 185
+        },
+        "vegetacion_sana": {
+          "precision": 0.5614,
+          "recall": 0.4923,
+          "f1": 0.5246,
+          "support": 65
+        },
+        "suelo_desnudo": {
+          "precision": 0.32,
+          "recall": 0.1569,
+          "f1": 0.2105,
+          "support": 51
+        }
+      },
+      "confusion_matrix": [
+        [
+          149,
+          22,
+          14
+        ],
+        [
+          30,
+          32,
+          3
+        ],
+        [
+          40,
+          3,
+          8
+        ]
+      ]
+    },
+    "multiespectral": {
+      "variant": "Multiespectral + Color + Textura",
+      "train_time_s": 0.36,
+      "infer_ms_per_sample": 0.1197,
+      "val_accuracy": 0.9848,
+      "val_f1_macro": 0.9842,
+      "test_accuracy": 0.9801,
+      "test_f1_macro": 0.9772,
+      "test_f1_weighted": 0.9801,
+      "test_per_class": {
+        "vegetacion_seca": {
+          "precision": 0.9891,
+          "recall": 0.9784,
+          "f1": 0.9837,
+          "support": 185
+        },
+        "vegetacion_sana": {
+          "precision": 0.9697,
+          "recall": 0.9846,
+          "f1": 0.9771,
+          "support": 65
+        },
+        "suelo_desnudo": {
+          "precision": 0.9615,
+          "recall": 0.9804,
+          "f1": 0.9709,
+          "support": 51
+        }
+      },
+      "confusion_matrix": [
+        [
+          181,
+          2,
+          2
+        ],
+        [
+          1,
+          64,
+          0
+        ],
+        [
+          1,
+          0,
+          50
+        ]
+      ]
+    },
+    "fusion_hog_multiespectral": {
+      "variant": "Fusion HOG(PCA-64) + Multiespectral",
+      "train_time_s": 0.413,
+      "infer_ms_per_sample": 0.1532,
+      "val_accuracy": 0.9909,
+      "val_f1_macro": 0.9905,
+      "test_accuracy": 0.9767,
+      "test_f1_macro": 0.9737,
+      "test_f1_weighted": 0.9768,
+      "test_per_class": {
+        "vegetacion_seca": {
+          "precision": 0.9837,
+          "recall": 0.9784,
+          "f1": 0.981,
+          "support": 185
+        },
+        "vegetacion_sana": {
+          "precision": 0.9552,
+          "recall": 0.9846,
+          "f1": 0.9697,
+          "support": 65
+        },
+        "suelo_desnudo": {
+          "precision": 0.98,
+          "recall": 0.9608,
+          "f1": 0.9703,
+          "support": 51
+        }
+      },
+      "confusion_matrix": [
+        [
+          181,
+          3,
+          1
+        ],
+        [
+          1,
+          64,
+          0
+        ],
+        [
+          2,
+          0,
+          49
+        ]
+      ]
+    }
+  },
+  "ms_feature_importances": {
+    "NDVI_mean": 0.1176,
+    "NDVI_std": 0.0021,
+    "NDVI_p10": 0.0619,
+    "NDVI_p90": 0.082,
+    "NDRE_mean": 0.0129,
+    "NDRE_std": 0.0021,
+    "GNDVI_mean": 0.0678,
+    "ExG_mean": 0.1659,
+    "ExG_std": 0.063,
+    "HSV_H_mean": 0.0662,
+    "HSV_S_mean": 0.0266,
+    "HSV_S_std": 0.0164,
+    "HSV_V_mean": 0.0541,
+    "HSV_V_std": 0.0073,
+    "Lab_L_mean": 0.0732,
+    "Lab_a_mean": 0.109,
+    "Lab_b_mean": 0.012,
+    "Lab_b_std": 0.0093,
+    "Sobel_mean": 0.0178,
+    "Sobel_std": 0.0092,
+    "Sobel_p90": 0.0132,
+    "Area_log": 0.0105
+  }
+}

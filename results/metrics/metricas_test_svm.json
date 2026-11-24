@@ -1,0 +1,166 @@
+{
+  "model": "SVC(kernel='rbf', class_weight='balanced')",
+  "split_counts": {
+    "train": 1250,
+    "val": 329,
+    "test": 301
+  },
+  "variants": {
+    "solo_hog": {
+      "variant": "Solo HOG (PCA-64)",
+      "best_params": {
+        "C": 30.0,
+        "gamma": "scale",
+        "pca": 64
+      },
+      "tune_and_train_time_s": 21.542,
+      "infer_ms_per_sample": 0.0781,
+      "val_accuracy": 0.5228,
+      "val_f1_macro": 0.4109,
+      "test_accuracy": 0.4784,
+      "test_f1_macro": 0.4213,
+      "test_f1_weighted": 0.4899,
+      "test_per_class": {
+        "vegetacion_seca": {
+          "precision": 0.6815,
+          "recall": 0.4973,
+          "f1": 0.575,
+          "support": 185
+        },
+        "vegetacion_sana": {
+          "precision": 0.3305,
+          "recall": 0.6,
+          "f1": 0.4262,
+          "support": 65
+        },
+        "suelo_desnudo": {
+          "precision": 0.2708,
+          "recall": 0.2549,
+          "f1": 0.2626,
+          "support": 51
+        }
+      },
+      "confusion_matrix": [
+        [
+          92,
+          60,
+          33
+        ],
+        [
+          24,
+          39,
+          2
+        ],
+        [
+          19,
+          19,
+          13
+        ]
+      ]
+    },
+    "multiespectral": {
+      "variant": "Multiespectral + Color + Textura",
+      "best_params": {
+        "C": 10.0,
+        "gamma": "scale",
+        "pca": 0
+      },
+      "tune_and_train_time_s": 0.739,
+      "infer_ms_per_sample": 0.0065,
+      "val_accuracy": 0.9848,
+      "val_f1_macro": 0.9842,
+      "test_accuracy": 0.9767,
+      "test_f1_macro": 0.9734,
+      "test_f1_weighted": 0.9769,
+      "test_per_class": {
+        "vegetacion_seca": {
+          "precision": 0.9944,
+          "recall": 0.9676,
+          "f1": 0.9808,
+          "support": 185
+        },
+        "vegetacion_sana": {
+          "precision": 0.9697,
+          "recall": 0.9846,
+          "f1": 0.9771,
+          "support": 65
+        },
+        "suelo_desnudo": {
+          "precision": 0.9273,
+          "recall": 1.0,
+          "f1": 0.9623,
+          "support": 51
+        }
+      },
+      "confusion_matrix": [
+        [
+          179,
+          2,
+          4
+        ],
+        [
+          1,
+          64,
+          0
+        ],
+        [
+          0,
+          0,
+          51
+        ]
+      ]
+    },
+    "fusion_hog_multiespectral": {
+      "variant": "Fusion HOG(PCA-64) + Multiespectral",
+      "best_params": {
+        "C": 3.0,
+        "gamma": 0.003,
+        "pca": 0
+      },
+      "tune_and_train_time_s": 2.38,
+      "infer_ms_per_sample": 0.0192,
+      "val_accuracy": 0.9757,
+      "val_f1_macro": 0.9724,
+      "test_accuracy": 0.9701,
+      "test_f1_macro": 0.9648,
+      "test_f1_weighted": 0.9704,
+      "test_per_class": {
+        "vegetacion_seca": {
+          "precision": 0.9889,
+          "recall": 0.9622,
+          "f1": 0.9753,
+          "support": 185
+        },
+        "vegetacion_sana": {
+          "precision": 0.9846,
+          "recall": 0.9846,
+          "f1": 0.9846,
+          "support": 65
+        },
+        "suelo_desnudo": {
+          "precision": 0.8929,
+          "recall": 0.9804,
+          "f1": 0.9346,
+          "support": 51
+        }
+      },
+      "confusion_matrix": [
+        [
+          178,
+          1,
+          6
+        ],
+        [
+          1,
+          64,
+          0
+        ],
+        [
+          1,
+          0,
+          50
+        ]
+      ]
+    }
+  }
+}

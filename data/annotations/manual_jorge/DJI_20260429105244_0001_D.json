@@ -1,0 +1,82 @@
+{
+  "version": "7.11.0",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "vegetacion_seca",
+      "points": [
+        [
+          3110.586708258477,
+          1112.962216716336
+        ],
+        [
+          3488.7084870146678,
+          1400.7152684741918
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "suelo_desnudo",
+      "points": [
+        [
+          1418.7652556645567,
+          2036.9586641484777
+        ],
+        [
+          1732.4160790224269,
+          2333.3443045692175
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "suelo_desnudo",
+      "points": [
+        [
+          1623.0699204206005,
+          808.2531451226923
+        ],
+        [
+          1882.0476644775576,
+          1087.3736026063016
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "suelo_desnudo",
+      "points": [
+        [
+          1407.2551337064697,
+          2.5446080566032947
+        ],
+        [
+          1761.1913839176443,
+          333.4606143516041
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "..\\raw\\DJI_20260429105244_0001_D.JPG",
+  "imageData": null,
+  "imageHeight": 3956,
+  "imageWidth": 5280
+}

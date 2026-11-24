@@ -1,0 +1,316 @@
+{
+  "version": "7.11.0",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "vegetacion_seca",
+      "points": [
+        [
+          2275.5761437948286,
+          2123.34824322634
+        ],
+        [
+          2937.015975288608,
+          2810.0660300638306
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "vegetacion_seca",
+      "points": [
+        [
+          2739.005325096203,
+          3029.141643042662
+        ],
+        [
+          3404.658149147267,
+          3795.906288468572
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "vegetacion_seca",
+      "points": [
+        [
+          1272.8839151609463,
+          3083.91054628737
+        ],
+        [
+          2161.8253447481275,
+          3947.5740205308393
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "vegetacion_seca",
+      "points": [
+        [
+          3219.2864766267176,
+          518.1980789006719
+        ],
+        [
+          3670.0766802562357,
+          985.8402527593312
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "suelo_desnudo",
+      "points": [
+        [
+          1879.5548434100178,
+          901.5804016136268
+        ],
+        [
+          2490.4387642163747,
+          1579.8722033365468
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "suelo_desnudo",
+      "points": [
+        [
+          46.903080990947956,
+          796.2555876814963
+        ],
+        [
+          683.064957141016,
+          1407.139508487853
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "suelo_desnudo",
+      "points": [
+        [
+          122.73694702208195,
+          1626.2151214666842
+        ],
+        [
+          670.4259794691603,
+          2232.8860497157557
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "suelo_desnudo",
+      "points": [
+        [
+          548.249195307889,
+          2321.358893418745
+        ],
+        [
+          1264.457930046376,
+          3037.5676281572323
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "suelo_desnudo",
+      "points": [
+        [
+          851.5846594324247,
+          1082.739081576891
+        ],
+        [
+          1660.4792304311868,
+          1980.1064962786425
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "vegetacion_sana",
+      "points": [
+        [
+          3825.9574048757886,
+          374.9563319529745
+        ],
+        [
+          4453.693295911286,
+          1040.6091560040388
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "vegetacion_seca",
+      "points": [
+        [
+          2448.3088386435224,
+          404.447279853971
+        ],
+        [
+          2616.8285409349314,
+          610.8839151609467
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "vegetacion_sana",
+      "points": [
+        [
+          2937.015975288608,
+          1133.2949922643136
+        ],
+        [
+          3451.001067277404,
+          1651.4930768103955
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "vegetacion_sana",
+      "points": [
+        [
+          3863.874337891356,
+          1533.5292852064094
+        ],
+        [
+          4188.274764802318,
+          1874.781682346512
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "vegetacion_sana",
+      "points": [
+        [
+          4226.191697817884,
+          1141.720977378884
+        ],
+        [
+          4816.010655837816,
+          1638.8540991385398
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "vegetacion_seca",
+      "points": [
+        [
+          4.7731554180958256,
+          227.50159244799184
+        ],
+        [
+          573.5271506516002,
+          749.9126695513589
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "vegetacion_seca",
+      "points": [
+        [
+          4782.306715379534,
+          2936.4558067823873
+        ],
+        [
+          5280.0,
+          3450.8782774405163
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "suelo_desnudo",
+      "points": [
+        [
+          1820.572947608025,
+          315.97443615098143
+        ],
+        [
+          2284.002128909399,
+          821.5335430252077
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "..\\Dataset\\DJI_20250329123306_0017_D.JPG",
+  "imageData": null,
+  "imageHeight": 3956,
+  "imageWidth": 5280
+}

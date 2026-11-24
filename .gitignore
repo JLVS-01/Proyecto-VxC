@@ -1,0 +1,17 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.cache
+.pip_tmp/
+*.tmp
+.DS_Store
+
+# Datos pesados e imagenes (permanecen locales en disco)
+data/raw/
+data/processed/
+data/annotations/labelme_240/*.jpg
+data/yolo_dataset/images/
+
+# Modelos clasicos pesados (.joblib); se conserva models/yolo/best.pt
+models/**/*.joblib

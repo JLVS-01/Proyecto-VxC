@@ -1,0 +1,10 @@
+# Dataset YOLO-Seg - Combustible Forestal (3 clases unificadas, split espacial por waypoint)
+path: /home/rocca/files/sch/vision/proyecto/data/yolo_dataset
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: vegetacion_seca
+  1: vegetacion_sana
+  2: suelo_desnudo

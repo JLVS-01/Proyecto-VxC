@@ -1,0 +1,56 @@
+{
+  "version": "5.5.0",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "vegetacion_sana",
+      "points": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1023.0
+        ],
+        [
+          1023.0,
+          1023.0
+        ],
+        [
+          1023.0,
+          251.0
+        ],
+        [
+          984.0,
+          252.0
+        ],
+        [
+          974.0,
+          228.0
+        ],
+        [
+          989.0,
+          193.0
+        ],
+        [
+          1023.0,
+          185.0
+        ],
+        [
+          1023.0,
+          0.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "wp08_2025_DJI_20250329123426_0057_r00_c04.jpg",
+  "imageData": null,
+  "imageHeight": 1024,
+  "imageWidth": 1024
+}

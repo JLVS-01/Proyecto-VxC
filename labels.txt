@@ -1,0 +1,3 @@
+vegetacion_seca
+vegetacion_sana
+suelo_desnudo

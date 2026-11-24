@@ -1,0 +1,196 @@
+{
+  "total_manual_boxes_valid": 307,
+  "train_boxes": 218,
+  "test_spatial_boxes": 89,
+  "trained_on_jorge_manual": {
+    "solo_hog": {
+      "knn": {
+        "accuracy": 0.6966,
+        "f1_macro": 0.4758,
+        "per_class_f1": {
+          "vegetacion_seca": 0.0,
+          "vegetacion_sana": 0.812,
+          "suelo_desnudo": 0.6154
+        },
+        "confusion_matrix": [
+          [
+            0,
+            17,
+            2
+          ],
+          [
+            0,
+            54,
+            2
+          ],
+          [
+            0,
+            6,
+            8
+          ]
+        ]
+      },
+      "rf": {
+        "accuracy": 0.7191,
+        "f1_macro": 0.4564,
+        "per_class_f1": {
+          "vegetacion_seca": 0.5333,
+          "vegetacion_sana": 0.8358,
+          "suelo_desnudo": 0.0
+        },
+        "confusion_matrix": [
+          [
+            8,
+            11,
+            0
+          ],
+          [
+            0,
+            56,
+            0
+          ],
+          [
+            3,
+            11,
+            0
+          ]
+        ]
+      },
+      "svm": {
+        "accuracy": 0.7528,
+        "f1_macro": 0.559,
+        "per_class_f1": {
+          "vegetacion_seca": 0.1,
+          "vegetacion_sana": 0.871,
+          "suelo_desnudo": 0.7059
+        },
+        "confusion_matrix": [
+          [
+            1,
+            12,
+            6
+          ],
+          [
+            0,
+            54,
+            2
+          ],
+          [
+            0,
+            2,
+            12
+          ]
+        ]
+      }
+    },
+    "multiespectral": {
+      "knn": {
+        "accuracy": 0.9888,
+        "f1_macro": 0.9791,
+        "per_class_f1": {
+          "vegetacion_seca": 0.9744,
+          "vegetacion_sana": 1.0,
+          "suelo_desnudo": 0.963
+        },
+        "confusion_matrix": [
+          [
+            19,
+            0,
+            0
+          ],
+          [
+            0,
+            56,
+            0
+          ],
+          [
+            1,
+            0,
+            13
+          ]
+        ]
+      },
+      "rf": {
+        "accuracy": 0.9775,
+        "f1_macro": 0.9586,
+        "per_class_f1": {
+          "vegetacion_seca": 0.9474,
+          "vegetacion_sana": 1.0,
+          "suelo_desnudo": 0.9286
+        },
+        "confusion_matrix": [
+          [
+            18,
+            0,
+            1
+          ],
+          [
+            0,
+            56,
+            0
+          ],
+          [
+            1,
+            0,
+            13
+          ]
+        ]
+      },
+      "svm": {
+        "accuracy": 0.9551,
+        "f1_macro": 0.9253,
+        "per_class_f1": {
+          "vegetacion_seca": 0.9048,
+          "vegetacion_sana": 0.991,
+          "suelo_desnudo": 0.88
+        },
+        "confusion_matrix": [
+          [
+            19,
+            0,
+            0
+          ],
+          [
+            1,
+            55,
+            0
+          ],
+          [
+            3,
+            0,
+            11
+          ]
+        ]
+      }
+    }
+  },
+  "zero_shot_to_manual": {
+    "knn": {
+      "accuracy": 0.8652,
+      "f1_macro": 0.7832,
+      "per_class_f1": {
+        "vegetacion_seca": 0.7273,
+        "vegetacion_sana": 0.9558,
+        "suelo_desnudo": 0.6667
+      }
+    },
+    "rf": {
+      "accuracy": 0.9101,
+      "f1_macro": 0.8522,
+      "per_class_f1": {
+        "vegetacion_seca": 0.8,
+        "vegetacion_sana": 0.9739,
+        "suelo_desnudo": 0.7826
+      }
+    },
+    "svm": {
+      "accuracy": 0.8652,
+      "f1_macro": 0.8003,
+      "per_class_f1": {
+        "vegetacion_seca": 0.8235,
+        "vegetacion_sana": 0.9106,
+        "suelo_desnudo": 0.6667
+      }
+    }
+  }
+}

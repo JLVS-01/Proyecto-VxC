@@ -1,0 +1,9 @@
+waypoint_id,year,capture_id,gps_lat,gps_lon,ventanas_eval,tiempo_s,pct_vegetacion_seca,pct_vegetacion_sana,pct_suelo_desnudo,pct_sombra_sin_clase,nivel_riesgo,mapa_path
+1,2025,DJI_20250329123234_0001,52.1757429,17.0559763,24,2.74,13.35,76.26,5.23,5.15,BAJO,/home/rocca/files/sch/vision/proyecto/Fase5EvaluacionInferencia/output/mapas_riesgo/wp01_2025_DJI_20250329123234_0001_mapa_riesgo.jpg
+1,2026,DJI_20260429105244_0001,52.1757432,17.0559761,24,2.01,1.3,87.71,1.45,9.54,BAJO,/home/rocca/files/sch/vision/proyecto/Fase5EvaluacionInferencia/output/mapas_riesgo/wp01_2026_DJI_20260429105244_0001_mapa_riesgo.jpg
+4,2025,DJI_20250329123322_0025,52.1745794,17.0568637,24,1.89,24.35,71.33,0.59,3.73,MODERADO,/home/rocca/files/sch/vision/proyecto/Fase5EvaluacionInferencia/output/mapas_riesgo/wp04_2025_DJI_20250329123322_0025_mapa_riesgo.jpg
+4,2026,DJI_20260429105332_0025,52.174578,17.0568602,24,1.9,2.82,89.06,0.6,7.53,BAJO,/home/rocca/files/sch/vision/proyecto/Fase5EvaluacionInferencia/output/mapas_riesgo/wp04_2026_DJI_20260429105332_0025_mapa_riesgo.jpg
+21,2025,DJI_20250329123754_0161,52.1752467,17.0552031,24,1.54,2.87,95.85,0.0,1.28,BAJO,/home/rocca/files/sch/vision/proyecto/Fase5EvaluacionInferencia/output/mapas_riesgo/wp21_2025_DJI_20250329123754_0161_mapa_riesgo.jpg
+21,2026,DJI_20260429105804_0161,52.1752569,17.0551917,24,1.49,1.25,95.59,0.0,3.16,BAJO,/home/rocca/files/sch/vision/proyecto/Fase5EvaluacionInferencia/output/mapas_riesgo/wp21_2026_DJI_20260429105804_0161_mapa_riesgo.jpg
+24,2025,DJI_20250329123842_0185,52.174102,17.0560708,24,1.56,5.36,90.99,0.0,3.66,BAJO,/home/rocca/files/sch/vision/proyecto/Fase5EvaluacionInferencia/output/mapas_riesgo/wp24_2025_DJI_20250329123842_0185_mapa_riesgo.jpg
+24,2026,DJI_20260429105852_0185,52.1740884,17.0560843,24,1.63,0.3,96.95,0.0,2.75,BAJO,/home/rocca/files/sch/vision/proyecto/Fase5EvaluacionInferencia/output/mapas_riesgo/wp24_2026_DJI_20260429105852_0185_mapa_riesgo.jpg

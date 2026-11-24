@@ -1,0 +1,118 @@
+{
+  "version": "7.11.0",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "suelo_desnudo",
+      "points": [
+        [
+          3227.712461741288,
+          547.6890268016684
+        ],
+        [
+          4327.30351919273,
+          1643.0670916958252
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "suelo_desnudo",
+      "points": [
+        [
+          3135.026625481013,
+          1786.3088386435224
+        ],
+        [
+          4192.487757359603,
+          2789.0010672774047
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "suelo_desnudo",
+      "points": [
+        [
+          3046.5537817780237,
+          2877.473910980394
+        ],
+        [
+          3981.8381294953424,
+          3589.469653161596
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "suelo_desnudo",
+      "points": [
+        [
+          4345.071050544268,
+          47.08686267898664
+        ],
+        [
+          5203.098326028024,
+          779.5491710187789
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "vegetacion_seca",
+      "points": [
+        [
+          1052.9214724286403,
+          2051.0622150121917
+        ],
+        [
+          1390.1827465757908,
+          1702.9912846423758
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "vegetacion_seca",
+      "points": [
+        [
+          1822.568995482394,
+          2533.172882543054
+        ],
+        [
+          2466.824506353233,
+          3155.8090809685627
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "..\\raw\\DJI_20250329123649_0129_D.JPG",
+  "imageData": null,
+  "imageHeight": 3956,
+  "imageWidth": 5280
+}

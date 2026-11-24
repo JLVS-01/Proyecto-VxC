@@ -1,0 +1,47 @@
+{
+  "num_test_tiles": 41,
+  "eval_time_s": 6.53,
+  "ms_per_tile": 159.2,
+  "gt_coverage_ratio": 0.9192,
+  "pixel_accuracy": 0.9398,
+  "pixel_accuracy_strict_all_gt": 0.8639,
+  "pixel_f1_macro": 0.7847,
+  "mIoU": 0.6655,
+  "per_class": {
+    "vegetacion_seca": {
+      "pixel_precision": 0.8383,
+      "pixel_recall": 0.5077,
+      "pixel_f1": 0.6324,
+      "pixel_iou": 0.4624
+    },
+    "vegetacion_sana": {
+      "pixel_precision": 0.9476,
+      "pixel_recall": 0.9569,
+      "pixel_f1": 0.9522,
+      "pixel_iou": 0.9088
+    },
+    "suelo_desnudo": {
+      "pixel_precision": 0.9964,
+      "pixel_recall": 0.6268,
+      "pixel_f1": 0.7695,
+      "pixel_iou": 0.6254
+    }
+  },
+  "confusion_matrix_px": [
+    [
+      2792705,
+      1470168,
+      3772
+    ],
+    [
+      301722,
+      27711922,
+      3228
+    ],
+    [
+      237091,
+      61505,
+      1942010
+    ]
+  ]
+}

@@ -1,0 +1,19 @@
+# Dependencias del proyecto - Detección de combustible forestal (YOLO-Seg)
+# Fase 1: Preprocesamiento multiespectral y tiling
+numpy>=1.26
+opencv-python>=4.10
+tifffile>=2024.5
+Pillow>=10.3
+matplotlib>=3.9
+tqdm>=4.66
+
+# Fase 2: Segmentación clásica asistida (SLIC + reconocimiento de patrones) y LabelMe
+scikit-learn>=1.5
+scikit-image>=0.24
+labelme>=5.5
+
+# Fase 4: Entrenamiento YOLO11-seg en GPU AMD RX 7600 (ROCm 6.4)
+# Instalar PyTorch ROCm primero con:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/rocm6.4
+# Luego instalar Ultralytics:
+#   pip install ultralytics
